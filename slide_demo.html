@@ -1,0 +1,33 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="splide-4.0.7/dist/css/splide.min.css">
+    <link rel="stylesheet" href="slides.css">
+    
+    <title>Document</title>
+</head>
+<body>
+    <section class="splide" aria-label="Splide Basic HTML Example">
+        <div class="splide__track">
+              <ul class="splide__list">
+                  <li class="splide__slide">Slide 01</li>
+                  <li class="splide__slide">Slide 02</li>
+                  <li class="splide__slide">Slide 03</li>
+              </ul>
+        </div>
+      </section>
+      <script src="splide-4.0.7/dist/js/splide.min.js"></script>
+      <script>
+        document.addEventListener( 'DOMContentLoaded', function() {
+            var splide = new Splide( '.splide', {
+                perPage: 3,
+                rewind : true,
+                gap: 5,
+            });
+            splide.mount();
+          } );
+      </script>
+</body>
+</html>

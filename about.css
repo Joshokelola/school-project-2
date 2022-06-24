@@ -1,0 +1,35 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image: url("./img/header-3/header-bg.jpg");
+    background-size: cover;
+}
+
+h1{
+text-align: center;
+font-size: 50px;
+color: white;
+}
+p{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    color: grey;
+    margin-top: -10px;
+    font-size: 20px;
+    text-align: justify;
+}
+.box1{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+.box2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.box3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
