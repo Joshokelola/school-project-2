@@ -1,12 +1,48 @@
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   
-  background-color: #e5e5f7;
+  background-color: #eb9ba4;
   opacity: 0.8;
   background-image: radial-gradient(#444cf7 0.5px, #e5e5f7 0.5px);
   background-size: 10px 10px;
 
+  background: linear-gradient(20deg, #90abdd, #051752);
+    background-size: 400% 400%;
+
+    -webkit-animation: AnimationName 20s ease infinite;
+    -moz-animation: AnimationName 20s ease infinite;
+    animation: AnimationName 20s ease infinite;
 }
+
+
+@-webkit-keyframes AnimationName {
+  0%{background-position:0% 40%}
+  50%{background-position:100% 61%}
+  100%{background-position:0% 40%}
+}
+@-moz-keyframes AnimationName {
+  0%{background-position:0% 40%}
+  50%{background-position:100% 61%}
+  100%{background-position:0% 40%}
+}
+@keyframes AnimationName {
+  0%{background-position:0% 40%}
+  50%{background-position:100% 61%}
+  100%{background-position:0% 40%}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 .main-box {
   position: absolute;
   height: 500px;
@@ -42,7 +78,7 @@ input {
   margin-left: 5%;
 }
 button {
-  width: 77%;
+  width: 76%;
   margin-top: 4%;
   margin-left: 4%;
   height: 40px;
